@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Show Case</title>
+    <link rel = "icon" href=" " >
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container" id="registration-form">
+        <h2 style="color: black;">Registration Form</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name" style="color: black;">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email" style="color: black;">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password" style="color: black;">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="college" style="color: black;">College/University:</label>
+                <input type="text" id="college" name="college" required>
+            </div>
+            <button type="button" onclick="showSignInForm()">Sign In</button>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <div class="container" id="sign-in-form" style="display: none;">
+        <h2 style="color: black;">Sign In Form</h2>
+        <form action="sign-in.html" method="post">
+            <div class="form-group">
+                <label for="email-signin" style="color: black;">Email:</label>
+                <input type="email" id="email-signin" name="email-signin" required>
+            </div>
+            <div class="form-group">
+                <label for="password-signin" style="color: black;">Password:</label>
+                <input type="password" id="password-signin" name="password-signin" required>
+            </div>
+            <button type="submit" ><a href="my_awesome_showcase.html">Sign In</button>
+        </form>
+    </div>
+</body>
+</html>
